@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html charset="utf8">
+<head>
+
+<meta name="description" content="pagina con canvas para ..." />
+<meta name="keywords" content="canvas,javascript" />
+<meta name="robots" content="Index/Follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="msthemecompatible" content="no" />
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/maestra.css">
+<link rel="stylesheet" type="text/css" href="css/inicio.css" id="pageCSS">
+<link rel="stylesheet" type="text/css" href="css/canvas.css">
+
+<script src="js/maestra.js"></script>
+<script src="js/iframe.js"></script>
+<script src="js/canvas.js"></script>
+
+</head>
+	<body onload="canvas(0);">
+	<div class="canvas">
+		<canvas id="canvas-fondo"></canvas>	
+	</div>
+	<div>
+	<nav>
+		<div id="nav" class="nav">
+			<a href="pages/inicio.html" target="iframe">INICIO</a>
+			<a href="pages/blog.html" target="iframe">BLOG</a>
+			<a href="pages/contacto.html" target="iframe">CONTACTO</a>
+		</div>
+	</nav>
+	<div id="divFrame" class="iframe">
+	<iframe name="iframe" id="iframe" src="pages/inicio.html" frameborder="0" onload="iframe();"></iframe>
+	</div>
+	</div>
+	</body>
+</html>
+<script></script>

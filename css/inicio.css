@@ -1,0 +1,17 @@
+body
+{
+    font-size: 150%;
+}
+#header, #nav, #section, #aside, #article, #footer
+{
+    text-align:center;
+    color: #abb;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.article
+{
+    background-color: #fff;
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: #000;
+}

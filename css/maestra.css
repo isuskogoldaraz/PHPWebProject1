@@ -1,0 +1,26 @@
+body 
+{
+	background-color:#000;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+div
+{
+	display: block;
+	width:100%;
+	height:100%;
+}
+nav div
+{
+	background-color:rgba(0,0,0,0.5);
+	position: fixed;
+	display: block;
+	z-index: 2;
+	height: 7%;
+}
+#divFrame
+{
+	padding-top: 10%;
+}
+
